@@ -27,6 +27,7 @@
 // export default App;
 
 import React, { Component } from 'react';
+import Projects from './Projects';
 
 class RegularClass {}
 class ComponentClass extends Component {}
@@ -90,6 +91,8 @@ class App extends Component {
             </div>
           )
         }
+      <hr />
+      <Projects />
       </div>
     )
   }
